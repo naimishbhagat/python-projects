@@ -31,3 +31,4 @@ print(prices)
 
 print(prices.keys())
 print(prices.values())
+print(prices.items())
