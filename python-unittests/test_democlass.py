@@ -12,7 +12,8 @@ class TestCalculate(unittest.TestCase):
 
     def test_sub(self):
         self.assertEqual(self.calculate.sub(14,5),9)
-    
+
+    #@unittest.skipIf(True,"Skipping because the condition is true")
     def test_mul(self):
         self.assertEqual(self.calculate.mul(4,5),20)
 
